@@ -35,16 +35,20 @@
             text-decoration: underline;
             font-size: 11px;
         }
-        .cu3{
+        .cu33{
             font-size: 11px;
-            
-            
+            width: 300px;
+            height: 20px;
+            font-size: 11px;
         }
         .bai{
-            width: 200px;
-            height: 110px;
+            width: 115px;
+            height: 120px;
             background-color: white;
-            
+            font-size: 115px;
+            /* font-weight: bold; */
+            color: red;
+            line-height: 115px;
         }
         .hong{
             width: 40px;
@@ -53,9 +57,12 @@
             
         }
         .bai2{
-            width: 200px;
-            height: 100px;
-            background-color: white;}
+            width: 180px;
+            height: 115px;
+            background-color: white;
+            font-size: 120px;
+            color: red;
+            line-height: 115px;}
         .adc{
             font-size: 11px;
             
@@ -64,24 +71,37 @@
         .cu4{
             font-size: 11px;
             color: red;
+            height: 20px;
+            line-height: 20px;
+        }
+        .cu3{
+            font-size: 11px;
+        }
+        .b{
+            background-color: #2a84f6;
+            width: 45px;
+            height: 20px;
+            border: 1px solid #eee;
+            border-radius: 15px;
+            font-size: x-small;
+            color: white;
         }
     </style>
 </head>
-<body>
+<body bgcolor="#b1fca3">
+    
     <div class="cu2">主页</div>
     <div class="cu"> - 学生管理 - 学生请假 出入校登记</div>
-    <div class="cu3">进出校门，请向保安师傅出示、大声说出防伪码：</div>
-    <div class="bai"></div>
-    <div class="hong"></div>
-    <div class="bai2"></div>
-    <div id="div"></div>
+    <div class="cu33" style="line-height: 10px;">进出校门，请向保安师傅出示、大声说出防伪码：</div>
+    <div class="bai"><font face="黑体">离</font></div>
+    <div class="bai2">658</div>
+    <div id="div" style="height: 30px;line-height: 40px"></div>
     <div class="adc">头像：<img src="1.jpg" width="200px" height="250px"></div>
     <div class="cu3" style="line-height: 22px;">身份证号：340822200103286221<br>身份：信息工程与传媒学院,22物联网2班(安工业专升本),范巧巧<br>
-    辅导员：钱春阳.13965070827<br>审核：辅导员已同意，可以出校<br>去向：离校去合肥市内<br>申请时间：11月16日12时02分<br>请假周期：11月16日13时00分 - 11月17日21时0分<br>离校登记：<br>返校登记：</div>
-    <div class="cu4">现在可以离校，请到学校大门口才点击以下按钮，显示后5分钟失效。</div>    
-    
+    辅导员：钱春阳.13965070827<br>审核：辅导员已同意，可以出校<br>去向：离校去合肥市内<br>申请时间：11月16日12时02分<br>请假周期：11月16日13时00分 - 11月17日21时0分<br>离校登记：11月16日20时13分<br>返校登记：</div>
+    <div class="cu4">当前是离校页面，离校5分钟后可以返校。</div>    
     <a href="https://www.php.cn/">
-         <button>出示离校页面</button>
+         <button class="b">刷新</button>
     </a>
 </body>
 </html>
