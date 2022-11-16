@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>合肥职院线上学生社区</title>
+    <script>
+        var i=0;
+        function myDate(){
+            var now=new Date();
+            var year=now.getFullYear();
+            var month=now.getMonth()+1;
+        var day=now.getDate();
+        var hours=now.getHours();
+        var minutes=now.getMinutes();
+        var seconds=now.getSeconds();
+        
+        document.getElementById("div").innerHTML="当前："+day+"日"+hours+"时"+minutes+"分"+seconds+"秒";
+    }
+    setInterval(myDate,1000);
+    </script>
+    <style>
+        .cu{
+            font-weight: bold;
+            color: black;
+            font-size: small;
+            height: 20px;
+            width: 350px;
+        }
+        .cu2{
+            font-weight: bold;
+            color: blue;
+            float:left ;
+            text-decoration: underline;
+            font-size: small;
+        }
+        .cu3{
+            font-size: small;
+            height: 20px;
+            width: 350px;
+           
+        }
+        .bai{
+            width: 200px;
+            height: 110px;
+            background-color: white;
+            
+        }
+        .hong{
+            width: 40px;
+            height: 10px;
+            background: red;
+            float: left;
+        }
+        .bai2{
+            width: 200px;
+            height: 100px;
+            background-color: white;}
+        .adc{
+            font-size: small;
+        }
+        #div{font-size: 12px;}
+    </style>
+</head>
+<body>
+    <div class="cu2">主页</div>
+    <div class="cu"> - 学生管理 - 学生请假 出入校登记</div>
+    <div class="cu3">进出校门，请向保安师傅出示、大声说出防伪码：</div>
+    <div class="bai"></div>
+    <div class="hong"></div>
+    <div class="bai2"></div>
+    <div id="div"></div>
+    <div class="adc">头像：<img src="1.jpg" width="200px" height="300px"></div>
+    <div class="cu3">身份证号：340822200103286221<br>身份：信息工程与传媒学院,22物联网2班,范巧巧<br>
+    辅导员：钱春阳.13965070827<br>审核：辅导员已同意，可以出校<br>去向：离校去合肥市内<br>申请时间：11月16日12时02分</div>
+</body>
+</html>
